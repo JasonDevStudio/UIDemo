@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jiede\\RiderProjects\\UIDemo\\DskinCPF\\CPFApp\\CPFApp\\CPFApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jiede\\RiderProjects\\UIDemo\\DskinCPF\\CPFApp\\CPFApp\\CPFApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jiede\\RiderProjects\\UIDemo\\DskinCPF\\CPFApp\\CPFApp\\CPFApp.csproj",
+        "projectName": "CPFApp",
+        "projectPath": "C:\\Users\\jiede\\RiderProjects\\UIDemo\\DskinCPF\\CPFApp\\CPFApp\\CPFApp.csproj",
+        "packagesPath": "C:\\Users\\jiede\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jiede\\RiderProjects\\UIDemo\\DskinCPF\\CPFApp\\CPFApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jiede\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\ComponentOne\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "Xhm.CPF": {
+              "target": "Package",
+              "version": "[0.8.7.1, )"
+            },
+            "Xhm.CPF.Linux": {
+              "target": "Package",
+              "version": "[0.8.7.1, )"
+            },
+            "Xhm.CPF.Mac": {
+              "target": "Package",
+              "version": "[0.8.7.1, )"
+            },
+            "Xhm.CPF.Skia": {
+              "target": "Package",
+              "version": "[0.8.7.1, )"
+            },
+            "Xhm.CPF.Windows": {
+              "target": "Package",
+              "version": "[0.8.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "SkiaSharp/1.68.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SkiaSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/tizen-armel/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "tizen-armel"
+          },
+          "runtimes/tizen-x86/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "tizen-x86"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Linux.NoDependencies/1.68.3": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.3"
+        },
+        "compile": {
+          "lib/netstandard/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "Xhm.CPF/0.8.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CPF.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CPF.dll": {}
+        }
+      },
+      "Xhm.CPF.Linux/0.8.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Linux.NoDependencies": "1.68.3",
+          "Xhm.CPF": "0.8.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/CPF.Linux.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CPF.Linux.dll": {}
+        }
+      },
+      "Xhm.CPF.Mac/0.8.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Xhm.CPF": "0.8.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/CPF.Mac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/CPF.Mac.dll": {}
+        }
+      },
+      "Xhm.CPF.Skia/0.8.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.3",
+          "Xhm.CPF": "0.8.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/CPF.Skia.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CPF.Skia.dll": {}
+        }
+      },
+      "Xhm.CPF.Windows/0.8.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Xhm.CPF": "0.8.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/CPF.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CPF.Windows.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SkiaSharp/1.68.3": {
+      "sha512": "78YvBVmR52PoLPf0aTZMWOZVrMxlXlgPOgU3vGk7W50wrYHi3lSd886ccYd7MkJmm+oInP8shf0vSy1321ERCQ==",
+      "type": "package",
+      "path": "skiasharp/1.68.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net45/SkiaSharp.targets",
+        "build/net462/SkiaSharp.targets",
+        "build/tizen40/SkiaSharp.targets",
+        "buildTransitive/net45/SkiaSharp.targets",
+        "buildTransitive/net462/SkiaSharp.targets",
+        "lib/monoandroid1.0/SkiaSharp.dll",
+        "lib/monoandroid1.0/SkiaSharp.xml",
+        "lib/net45/SkiaSharp.dll",
+        "lib/net45/SkiaSharp.xml",
+        "lib/net462/SkiaSharp.dll",
+        "lib/net462/SkiaSharp.xml",
+        "lib/netstandard1.3/SkiaSharp.dll",
+        "lib/netstandard1.3/SkiaSharp.xml",
+        "lib/netstandard2.0/SkiaSharp.dll",
+        "lib/netstandard2.0/SkiaSharp.xml",
+        "lib/tizen40/SkiaSharp.dll",
+        "lib/tizen40/SkiaSharp.xml",
+        "lib/uap10.0.10240/SkiaSharp.dll",
+        "lib/uap10.0.10240/SkiaSharp.xml",
+        "lib/uap10.0.16299/SkiaSharp.dll",
+        "lib/uap10.0.16299/SkiaSharp.xml",
+        "lib/xamarinios1.0/SkiaSharp.dll",
+        "lib/xamarinios1.0/SkiaSharp.xml",
+        "lib/xamarinmac2.0/SkiaSharp.dll",
+        "lib/xamarinmac2.0/SkiaSharp.xml",
+        "lib/xamarintvos1.0/SkiaSharp.dll",
+        "lib/xamarintvos1.0/SkiaSharp.xml",
+        "lib/xamarinwatchos1.0/SkiaSharp.dll",
+        "lib/xamarinwatchos1.0/SkiaSharp.xml",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "runtimes/tizen-armel/native/libSkiaSharp.so",
+        "runtimes/tizen-x86/native/libSkiaSharp.so",
+        "runtimes/win-x64/native/libSkiaSharp.dll",
+        "runtimes/win-x86/native/libSkiaSharp.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll",
+        "skiasharp.1.68.3.nupkg.sha512",
+        "skiasharp.nuspec",
+        "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "SkiaSharp.NativeAssets.Linux.NoDependencies/1.68.3": {
+      "sha512": "fJeiAULF9KT6UuHDDt8B/CJx6hpVQXHuKVAZF9ClC6v2VohRyHGbAkFTUNpseBP0Qq1AexlkUfav/FK6/LMVGA==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.linux.nodependencies/1.68.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net45/SkiaSharp.NativeAssets.Linux.NoDependencies.targets",
+        "buildTransitive/net45/SkiaSharp.NativeAssets.Linux.NoDependencies.targets",
+        "lib/net45/_._",
+        "lib/netstandard/_._",
+        "runtimes/linux-x64/native/libSkiaSharp.so",
+        "skiasharp.nativeassets.linux.nodependencies.1.68.3.nupkg.sha512",
+        "skiasharp.nativeassets.linux.nodependencies.nuspec"
+      ]
+    },
+    "System.Memory/4.5.3": {
+      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "type": "package",
+      "path": "system.memory/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Xhm.CPF/0.8.7.1": {
+      "sha512": "ix/YmCIlvv/0Qyrinvg+DAAQ6AJd1cDfg23zHqCqxeGJT0cxD0/gWAjgelr48WUGosAdAcDiQzdfCJj4/qB0bw==",
+      "type": "package",
+      "path": "xhm.cpf/0.8.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/CPF.dll",
+        "lib/net40/CPF.xml",
+        "lib/netstandard2.0/CPF.dll",
+        "lib/netstandard2.0/CPF.xml",
+        "xhm.cpf.0.8.7.1.nupkg.sha512",
+        "xhm.cpf.nuspec"
+      ]
+    },
+    "Xhm.CPF.Linux/0.8.7.1": {
+      "sha512": "kAh1BuiGBXz3CTEuAyPh97VgRL5VK/ZYZ2kDc61YvFARZNW/y5oJMmq3OM7ZPon7vjhz5IBgrkxuSKKYeL9pWQ==",
+      "type": "package",
+      "path": "xhm.cpf.linux/0.8.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/CPF.Linux.dll",
+        "xhm.cpf.linux.0.8.7.1.nupkg.sha512",
+        "xhm.cpf.linux.nuspec"
+      ]
+    },
+    "Xhm.CPF.Mac/0.8.7.1": {
+      "sha512": "dugOgkUouldZxCcXfoRAGbeKyTy5YKGMUh4KQcJ3B8n0t5tim/JEiGpopCqeFgg0Kwrvs6anAHltPBsBpbXe1w==",
+      "type": "package",
+      "path": "xhm.cpf.mac/0.8.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/CPF.Mac.dll",
+        "lib/netstandard2.1/CPF.Mac.xml",
+        "xhm.cpf.mac.0.8.7.1.nupkg.sha512",
+        "xhm.cpf.mac.nuspec"
+      ]
+    },
+    "Xhm.CPF.Skia/0.8.7.1": {
+      "sha512": "g9ps77h5I7wdNPyE7rzpfpw4aDpI/vhEmx/PUhcXnxGH1bNdL1TAGxzZxPzAUf+1cDNF4lr9oGu2yF3b41GrAA==",
+      "type": "package",
+      "path": "xhm.cpf.skia/0.8.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/CPF.Skia.dll",
+        "lib/netstandard2.0/CPF.Skia.xml",
+        "xhm.cpf.skia.0.8.7.1.nupkg.sha512",
+        "xhm.cpf.skia.nuspec"
+      ]
+    },
+    "Xhm.CPF.Windows/0.8.7.1": {
+      "sha512": "7Ld/7Y5QDrHKwlhc/em27TPXv/+TkTlZ/zq1VhYakXlWmBblB2g1Ok44JpI32v8+hbHNr4vm0AP5FQXsMfxkmg==",
+      "type": "package",
+      "path": "xhm.cpf.windows/0.8.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/CPF.Windows.dll",
+        "lib/net40/CPF.Windows.xml",
+        "lib/netstandard2.0/CPF.Windows.dll",
+        "lib/netstandard2.0/CPF.Windows.xml",
+        "xhm.cpf.windows.0.8.7.1.nupkg.sha512",
+        "xhm.cpf.windows.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Xhm.CPF >= 0.8.7.1",
+      "Xhm.CPF.Linux >= 0.8.7.1",
+      "Xhm.CPF.Mac >= 0.8.7.1",
+      "Xhm.CPF.Skia >= 0.8.7.1",
+      "Xhm.CPF.Windows >= 0.8.7.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jiede\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jiede\\RiderProjects\\UIDemo\\DskinCPF\\CPFApp\\CPFApp\\CPFApp.csproj",
+      "projectName": "CPFApp",
+      "projectPath": "C:\\Users\\jiede\\RiderProjects\\UIDemo\\DskinCPF\\CPFApp\\CPFApp\\CPFApp.csproj",
+      "packagesPath": "C:\\Users\\jiede\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jiede\\RiderProjects\\UIDemo\\DskinCPF\\CPFApp\\CPFApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jiede\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\ComponentOne\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "targetAlias": "netcoreapp3.0",
+        "dependencies": {
+          "Xhm.CPF": {
+            "target": "Package",
+            "version": "[0.8.7.1, )"
+          },
+          "Xhm.CPF.Linux": {
+            "target": "Package",
+            "version": "[0.8.7.1, )"
+          },
+          "Xhm.CPF.Mac": {
+            "target": "Package",
+            "version": "[0.8.7.1, )"
+          },
+          "Xhm.CPF.Skia": {
+            "target": "Package",
+            "version": "[0.8.7.1, )"
+          },
+          "Xhm.CPF.Windows": {
+            "target": "Package",
+            "version": "[0.8.7.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

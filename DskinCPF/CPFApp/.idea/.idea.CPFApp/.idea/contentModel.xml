@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\jiede\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\jiede\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_CPFApp.1595981185.00" t="ExcludeRecursive" />
+    <e p="C:\Users\jiede\RiderProjects\UIDemo\DskinCPF\CPFApp" t="IncludeFlat">
+      <e p="CPFApp" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CPFApp.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Stylesheet1.css" t="Include" />
+        <e p="Window1.cs" t="Include" />
+      </e>
+      <e p="CPFApp.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
